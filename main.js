@@ -72,5 +72,9 @@ var main2 = function() {
 };
 var zhanbu = function(){
   alert ("今天不宜" + main());
+  alert ("今天不宜" + main());
+  alert ("今天不宜" + main());
+  alert ("今天宜" + main2());
+  alert ("今天宜" + main2());
   alert ("今天宜" + main2());
 };
