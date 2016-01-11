@@ -19,55 +19,55 @@ var main = function() {
      return "过早睡";
    }
    else if (a < 0.7){
-     return "";
+     return "拍照";
    }
    else if (a < 0.8){
-     return "";
+     return "看视频";
    }
    else if (a < 0.9){
-     return "";
+     return "看书";
    }
    else if (a < 1){
-     return "";
+     return "发呆";
    }
    else {
-     return;
+     return "去买赌博（赢面极小）";
    }
 };
 var main2 = function() {
    var b = Math.random();
    if (b < 0.1) {
-     return "";
+     return "占卜";
    }
    else if (b < 0.2){
-     return "";
+     return "吃饭";
    }
    else if (b < 0.3){
-     return "";
+     return "上计算机课";
    }
    else if (b < 0.4){
-     return "";
+     return "再占卜一次";
    }
    else if (b < 0.5){
-     return "";
+     return "玩游戏";
    }
    else if (b < 0.6){
-     return "";
+     return "考试";
    }
    else if (b < 0.7){
-     return "";
+     return "婚丧嫁娶";
    }
    else if (b < 0.8){
-     return "";
+     return "动土动木";
    }
    else if (b < 0.9){
-     return "";
+     return "杀人（不会被发现）";
    }
    else if (b < 1){
-     return "";
+     return "睡觉";
    }
    else {
-     return "";
+     return "去买彩票（中奖几率极大）";
    }
 };
 var zhanbu = function(){
