@@ -1,10 +1,10 @@
-var main = function() {
+var min = function() {
    var a = Math.random();
    if (a < 0.1) {
      return "写作业";
    }
    else if (a < 0.2){
-     return "上课";
+     return "";
    }
    else if (a < 0.3){
      return "运动";
@@ -34,7 +34,7 @@ var main = function() {
      return "去买赌博（赢面极小）";
    }
 };
-var main2 = function() {
+var min2 = function() {
    var b = Math.random();
    if (b < 0.1) {
      return "占卜";
@@ -70,7 +70,7 @@ var main2 = function() {
      return "去买彩票（中奖几率极大）";
    }
 };
-var zhanbu = function(){
+var zhaZcZccbu = function(){
   alert ("今天不宜" + main());
   alert ("今天不宜" + main());
   alert ("今天不宜" + main());
@@ -78,3 +78,36 @@ var zhanbu = function(){
   alert ("今天宜" + main2());
   alert ("今天宜" + main2());
 };
+
+
+
+
+function zhnbu(){
+  return "今天不宜" + ["写作业",
+    "上课",
+    '运动',
+    "使用电子设备",
+    "过早睡",
+    '过晚睡',
+    "看视频",
+    "看书",
+    "发呆"
+  ].sample(3);
+}
+
+function zhabu(){
+  return "今天宜" + ["占卜",
+    "占卜",
+    '吃饭',
+    "上计算机课",
+    "再占卜一次",
+    '玩游戏',
+    "杀人（不会被发现）",
+    "婚丧嫁娶",
+    "考试"
+  ].sample(3);
+}
+function zhanbu() {
+  alert(zhnbu());
+  alert(zhabu());
+}
